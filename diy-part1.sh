@@ -14,6 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
+echo "src-git cups https://github.com/sirpdboy/luci-app-cupsd.git" >> feeds.conf.default
 #echo "src-git cups https://github.com/Gr4ffy/lede-cups.git" >> feeds.conf.default
 #echo "src-git cups https://github.com/guangtouqian/lede-cups.git" >> feeds.conf.default
 #echo "src-git cups https://github.com/fengchen-github/openwrt-cups.git" >> feeds.conf.default
